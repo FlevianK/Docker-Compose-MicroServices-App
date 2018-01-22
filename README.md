@@ -27,12 +27,17 @@ docker-compose run web /usr/local/bin/python create_db.py
 docker-compose run web env
 ```
 
-5. To view logs
+5. Access the application on this link
+```sh
+http://localhost:8080
+```
+
+6. To view logs
 ```sh
 docker-compose logs
 ```
 
-6. To stop all services
+7. To stop all services
 ```sh
 docker-compose stop.
 ```
